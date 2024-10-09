@@ -1,0 +1,124 @@
+/* Общие стили */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Шапка сайта */
+.header {
+    background-color: #444;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.header .restaurant-name {
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.nav-menu {
+    margin-top: 10px;
+}
+
+.nav-menu li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.nav-menu a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+.nav-menu a:hover {
+    text-decoration: underline;
+}
+
+/* Основной контент */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.about-page {
+    padding: 40px 0;
+}
+
+.about-page h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+    color: #444;
+}
+
+.about-page p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+.team-member {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.team-member h3 {
+    font-size: 1.5em;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+.team-member p {
+    font-size: 1.1em;
+}
+
+.values ul {
+    list-style: none;
+}
+
+.values li {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+.values strong {
+    color: #444;
+}
+
+/* Подвал сайта */
+.footer {
+    background-color: #444;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+.footer p {
+    margin-bottom: 10px;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
